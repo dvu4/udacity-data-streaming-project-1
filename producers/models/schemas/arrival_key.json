@@ -1,7 +1,7 @@
 {
   "namespace": "com.udacity",
   "type": "record",
-  "name": "turnstile.key",
+  "name": "arrival.key",
   "fields": [
     {
       "name": "timestamp",
