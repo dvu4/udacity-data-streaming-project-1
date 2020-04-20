@@ -81,7 +81,7 @@ class Turnstile(Producer):
                         },
                     )
         except Exception as e:
-            logger.info(f"Turnstile failed to write to topic {} with exception {}".format(self.topic_name, e))
+            logger.info("Turnstile failed to write to topic {} with exception {}".format(self.topic_name, e))
             logger.info("schema : {}".format(Turnstile.value_schema))
             logger.info("value : {}, {}, {}".format(self.station.station_id, self.station.name, self.station.color.name))
 
