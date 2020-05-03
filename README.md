@@ -1,5 +1,8 @@
 # Public Transit Status with Apache Kafka
 
+[![Project passed](https://img.shields.io/badge/project-passed-success.svg)](https://img.shields.io/badge/project-passed-success.svg)
+
+
 In this project, you will construct a streaming event pipeline around Apache Kafka and its ecosystem. Using public data from the [Chicago Transit Authority](https://www.transitchicago.com/data/) we will construct an event pipeline around Kafka that allows us to simulate and display the status of train lines in real time.
 
 When the project is complete, you will be able to monitor a website to watch trains move from station to station.
